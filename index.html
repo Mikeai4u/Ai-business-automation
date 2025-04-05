@@ -75,14 +75,38 @@
  src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 <script>
   window.botpressWebChat.init({
-    botId: "4490a158-5f19-426d-99f5-4aac77daadc4",
-    clientId: "4490a158-5f19-426d-99f5-4aac77daadc4",
-    hostUrl: "https://cdn.botpress.cloud/webchat/v1",
-    messagingUrl: "https://messaging.botpress.cloud",
-    botName: "RetailFlow AI",
-    avatarUrl: "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
-    showPoweredBy: false,
-    themeColor: "#4f46e5"
+    "botId": "4490a158-5f19-426d-99f5-4aac77daadc4",
+    "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+    "messagingUrl": "https://messaging.botpress.cloud",
+    "clientId": "4490a158-5f19-426d-99f5-4aac77daadc4",
+    "containerWidth": "100%25",
+    "layoutWidth": "400px",
+    "showPoweredBy": false,
+    "botName": "AI Growth Consultant",
+    "avatarUrl": "https://cdn-icons-png.flaticon.com/512/4712/4712032.png",
+    "stylesheet": "https://cdn.botpress.cloud/webchat/v1/themes/light.css",
+    "enableReset": true,
+    "useSessionStorage": true,
+    "startConversation": true,
+    "conversationDescription": "Helping your business grow with AI.",
+    "showConversationsButton": true,
+    "enableTranscriptDownload": false,
+    "className": "botpress-chat",
+    "stylesheetOptions": {
+      "backgroundColor": "#ffffff",
+      "foregroundColor": "#007bff"
+    },
+    "userMessage": "Hi",
+    "botConversation": [
+      {
+        "type": "text",
+        "text": "Hi there! Welcome to **AI Business Growth Consultant**. I’m your AI Growth Partner."
+      },
+      {
+        "type": "text",
+        "text": "I can help with:\n- Market Research\n- Sales Optimization\n- Email Outreach\n- Funding Match\n\nTell me what kind of business you run?"
+      }
+    ]
   });
 </script>
 </body>
