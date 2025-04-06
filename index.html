@@ -2,77 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RetailFlowAI - AI-Powered Business Growth Consultant</title>
- <script
- src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
- <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retail Flow AI - Business Growth Consultant</title>
+  <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
       margin: 0;
       padding: 0;
+      background-color: #f5f7fa;
     }
     header {
-      background: #111827;
+      background: linear-gradient(to right, #0052cc, #3f87f5);
       color: white;
-      padding: 2rem;
+      padding: 60px 20px;
       text-align: center;
     }
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-    .hero h1 {
+    header h1 {
+      margin: 0;
       font-size: 2.5rem;
-      color: #111827;
     }
-    .hero p {
+    header p {
       font-size: 1.2rem;
-      color: #4B5563;
-      max-width: 600px;
-      margin: 1rem auto;
+      margin-top: 10px;
     }
     .cta-button {
-      background-color: #2563EB;
-      color: white;
-      padding: 0.8rem 1.5rem;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: white;
+      color: #0052cc;
+      font-weight: bold;
       border: none;
-      border-radius: 0.5rem;
-      font-size: 1rem;
+      border-radius: 8px;
       cursor: pointer;
-      margin-top: 1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: white;
+    }
+    .feature-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .feature-card h3 {
+      color: #0052cc;
+    }
+    .how-it-works {
+      background-color: #e6f0ff;
+      padding: 40px 20px;
+      text-align: center;
     }
     footer {
       text-align: center;
-      padding: 1rem;
-      background: #F3F4F6;
+      padding: 20px;
+      background: #f0f0f0;
       font-size: 0.9rem;
-      color: #6B7280;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>RetailFlowAI</h1>
-    <p>AI-Powered Business Growth Consultant for Startups</p>
-  </header>
-
-  <div class="hero">
-    <h1>Grow Your Business with AI</h1>
-    <p>
-      Get instant insights, sales optimization strategies, investor support, and market research — all powered by smart AI conversations. Start free today.
-    </p>
-    <a href="about.html">
-      <button class="cta-button">Join the Waiting List</button>
-    </a>
-  </div>
-
+    <h1>Retail Flow AI</h1>
+    <p>Automate Market Research, Sales Optimization, Strategy & Investor Matching — All via Smart Chatbot.</p>
+    <a href="#" class="cta-button">Join the Waiting List</a>
+  </header>  <section class="features">
+    <div class="feature-card">
+      <h3>Market Research</h3>
+      <p>Get AI-curated insights about your target market instantly.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Business Strategy</h3>
+      <p>Generate actionable strategies tailored to your business goals.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Sales Optimization</h3>
+      <p>Identify bottlenecks and boost conversions with AI recommendations.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Investor Support</h3>
+      <p>Match with the right investors and prepare AI-crafted pitch decks.</p>
+    </div>
+  </section>  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <p>1. Ask the chatbot your question</p>
+    <p>2. AI understands your business need</p>
+    <p>3. You get intelligent, actionable insights</p>
+  </section>
   <footer>
-    &copy; 2025 RetailFlowAI. All rights reserved.
-  </footer>
-<script>
+    &copy; 2025 Retail Flow AI. All rights reserved.
   window.botpressWebChat.init({
     "clientId": "12ac8bbe-1621-45d4-a677-6f454208d035",
     "botId": "12ac8bbe-1621-45d4-a677-6f454208d035",
