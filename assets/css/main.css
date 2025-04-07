@@ -4686,4 +4686,38 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-	}
+	@media screen and (max-width: 736px) {
+  body, input, select, textarea {
+    font-size: 14pt;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  .actions.special li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .post.featured ul {
+    padding-left: 1em;
+  }
+
+  .row > .col-6 {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  blockquote {
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  ul.icons.alt {
+    justify-content: center;
+  }
+}
+}
